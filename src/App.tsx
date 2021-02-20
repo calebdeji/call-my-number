@@ -99,7 +99,7 @@ function App() {
       <ToastContainer />
       <SubContainer as="form" onSubmit={handleSubmit}>
         <Input
-          label="Phone number"
+          label="Phone number (For Nigeria only)"
           placeholder="Input the phone number to call"
           value={phoneNumber}
           onChange={handleChange}
