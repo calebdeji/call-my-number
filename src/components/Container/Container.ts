@@ -8,7 +8,6 @@ const Container = styled.main`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.05);
 
   @media all and (min-width: 500px) {
     padding: ${convertPixelToRem(10)} 20%;
